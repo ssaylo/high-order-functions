@@ -1,0 +1,23 @@
+{
+  "name": "high-order-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compose.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linlai163/high-order-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linlai163/high-order-functions/issues"
+  },
+  "homepage": "https://github.com/linlai163/high-order-functions#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
