@@ -24,7 +24,7 @@ const plusOne = curried(1);
 console.log(plusOne(10)); // 10
 
 // 3. 柯里化的实现 
-function curry(func) {
+function curry(func) { // 我第一次知道函数还有形参，而且这个形参是根据函数的入参个数来计算的
   return function curried(...args) {
     if (args.length >= func.length) {
       return func.apply(this, args);
